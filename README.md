@@ -1,72 +1,44 @@
-🏦 Bank Management System
+# 🏦 **Bank Management System**
 
+> A simple **Bank Management System** built with **C++** for handling account creation, deposits, withdrawals, and account management.
 
-This is a simple Bank Management System written in C++.
-It uses basic file handling, linked lists, and object-oriented programming concepts.
+---
 
+## 📋 **Features**
 
-📋 Features
+- **Create** new bank accounts (auto-generated account numbers)
+- **Deposit** and **Withdraw** money
+- **Display** account balance and transaction history
+- **Delete** an account
+- **Save** and **Load** account data from files
 
+---
 
-  Create a new bank account
-  Store account details (name, account number, password, balance)
-  Save accounts to a file (accounts.txt)
-  Check for duplicate account numbers
-  Basic linked list to manage multiple accounts
+## 🚀 **How to Run**
 
+1. **Navigate** to the project folder.
+2. **Compile** the code:
+   ```bash
+   g++ Bank-Management-system.cpp -o bank.exe
 
-  
-📂 Project Structure
+3. **Run** the program
+   .\bank.exe
+   
+4.Ensure the database/ folder exists with accounts.txt and account_numbers.txt.
+## 📄 **Notes**
 
+- **AVL Tree**: This project uses an **AVL Tree** for efficient account insertion and deletion.
+- **Transactions**: All **transactions** (deposits/withdrawals) are logged and saved for future reference.
+- **UI**: A simple **terminal UI** with **colorful output** for better user experience.
 
-   ├── accounts.txt    // Stores saved accounts
-   ├── bank.cpp        // Main C++ source code
-   └── README.md       // Project documentation
+---
+## 🔧 **Future Enhancements**
 
+- **Password Protection**: Add secure login for account holders.  
+- **Advanced Transactions**: Implement features like **transfer money** between accounts.  
+- **Improved UI**: Enhance the **menu system** for a more intuitive experience.  
+- **Reporting**: Generate **detailed reports** for account balances and transaction history.  
 
-🛠 Technologies Used
-
-
-  C++ (Standard)
-  File I/O (fstream)
-  Data Structures (struct, linked list)
-  Basic Git for version control
-
-
-🚀 How to Run
-
-
-1.Navigate to your project directory:
-
-  cd "C:\Users\user\Desktop\html\dsa project\someFolder"
-
-2.Compile the C++ file using g++:
-
-  g++ bank.cpp -o bank.exe
-3.Run the executable:
-
-  .\bank.exe
-  
-4.Interact with the program through the console.
-
-
-⚡ Example Usage
-
-
-Enter your account number
-If it's unique, proceed to add your name, password, and initial balance.
-If it's not unique, the system will ask you to enter another account number.
-All accounts are saved automatically into accounts.txt.
-
-
-✨ Future Improvements
-
-
-Add a login system
-Add withdraw and deposit functionalities
-Display account details
-Securely store passwords (hashed)
-Improve the menu and user interface
-
+   
 
   
